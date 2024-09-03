@@ -1,0 +1,73 @@
+body {
+    background-color: #dae6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background-color: #f6f6f7;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.logo {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #fff;
+    border: 2px solid #eee;
+    color: #333;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f1f3f4;
+    color: #202124;
+}
