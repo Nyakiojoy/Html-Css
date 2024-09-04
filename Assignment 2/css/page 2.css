@@ -36,7 +36,7 @@ body {
     color: #333;
 }
 
-.avatar {
+.logo-image {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -60,6 +60,7 @@ body {
     text-decoration: none;
     color: #0056b3;
     margin-right: 10px;
+    font-size: 18px;
 }
 
 .progress-bar .active {
@@ -91,6 +92,7 @@ body {
 .form-buttons {
     display: flex;
     justify-content: space-between;
+    margin-bottom:80px;
 }
 
 .register-button, .login-button {
@@ -114,6 +116,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    padding: 30px 0 20px 0;
+    border-top: 1px solid #c5c3c3;
 }
 
 .cancel-button, .shipping-button {
@@ -141,17 +145,23 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    flex-direction: column;
 }
 
 .product-summary img {
-    width: 100px;
+    width: 100%;
     height: auto;
-    margin-right: 15px;
+    border-radius: 12px;
 }
 
 .product-details {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.product-details.row p{
+    font-weight: bold;
 }
 
 .price {
@@ -173,6 +183,11 @@ body {
     cursor: pointer;
 }
 
+.dicount p{
+    color: #777;
+    font-size: 12px;
+}
+
 .discount-code {
     display: flex;
     align-items: center;
@@ -183,17 +198,19 @@ body {
     flex: 1;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: none;
     margin-right: 10px;
+    background-color: #cfcece;
 }
 
 .apply-button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
-    border: none;
+    background-color: #e4e4e4;
+    color:rgb (3, 61, 250) ;
+    padding: 10px20px;
+    border: 1px solid #007bff;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .price-summary {
