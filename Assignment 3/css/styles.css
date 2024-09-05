@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 40px 20px; */
+    /* margin-top: 30px; */
+}
+.container a{
+    color: #000;
+    text-decoration: none;
+} 
+
+
+/* Card styling */
+.card {
+    /* background-color: #fff; */
+    /* border-radius: 10px; */
+    /* box-shadow: 10px 28px 52px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    /* margin-top: -75px; This moves the card up */
+    width: 100%; /* This adjusts the card width */
+    /* margin-left: -50px; This moves the card to the left */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.container button{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin-bottom: -80px; */
+    padding: 20px; /* Add padding inside the card */
+    /* border-radius: 10px; Ensures the hero section respects the card's border radius */
+}
+
+.hero-text {
+    max-width: 450px;
+}
+
+.hero-text h1 {
+    font-size: 68px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.hero-text button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+    background-color: transparent;
+    border: 1px solid #666;
+    color: #000;
+}
+
+.hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.hero-image img {
+    width: 70%;
+    height: 470px;
+    /* border-radius: 10px; */
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* color: #999; */
+}
+
+.footer-logos img{
+    margin: 12px;
+}
+
+.footer-logos span {
+    margin: 0 10px;
+    font-size: 14px;
+}
